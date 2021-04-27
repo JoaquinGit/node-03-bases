@@ -1,0 +1,1 @@
+### Carpeta donde se generan los archivos de la app.

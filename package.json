@@ -4,6 +4,8 @@
   "description": "Aplicación de línea de comandos para multiplicar",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/JoaquinGit/node-03-bases/issues"
   },
-  "homepage": "https://github.com/JoaquinGit/node-03-bases#readme"
+  "homepage": "https://github.com/JoaquinGit/node-03-bases#readme",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
