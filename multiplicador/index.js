@@ -11,7 +11,7 @@ const multiplicar = (base) => {
     const resultado = logica(base);
 
     console.log(resultado);
-    fs.writeFileSync(`tablas/tabla-del-${base}`, resultado);
+    fs.writeFileSync(`tablas/tabla-del-${base}.txt`, resultado);
 }
 
 module.exports = {
